@@ -34,20 +34,20 @@ pipeline {
     }
     stage('Run Pump') {
         steps {
-            bat "Run Pump"
+            printTest()
         }
 
     }
 
     stage('Get Sensor Data') {
         steps {
-            bat "Run Pump"
+            printTest()
         }
     }
 
     stage('Show Sensor data') {
         steps {
-            bat "Run Pump"
+            printTest()
         }
     }
 
