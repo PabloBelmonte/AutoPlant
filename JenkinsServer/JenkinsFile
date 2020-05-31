@@ -12,8 +12,7 @@ pipeline {
             // // This command is done implicitely by the config on the Jenkins
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-            // info('Build')
-            runPython('uC_interface/run_pump.py')
+            info('Build')
         }
         
 
@@ -28,7 +27,8 @@ pipeline {
     }
     stage('Run Pump') {
         steps {
-            info('Run Pump')
+            // info('Run Pump')
+            runPython('uC_interface/run_pump.py')
         }
 
     }
@@ -51,12 +51,9 @@ pipeline {
 def runPython(name) {
     script {
     if (isUnix()) {
-            sh "echo $name"
+            sh "python $WORKSPACE/$name"
         } else {
-            // bat "echo 'Running Pyhon $name'"
             bat "python $WORKSPACE/$name"
-            // bat "python $WORKSPACE/uC_interface/run_pump.py"
-            // bat "echo $WORKSPACE"
         }
     }
 }
