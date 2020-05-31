@@ -15,7 +15,7 @@ pipeline {
             info('Build')
             script {
                 def readSensorData = readJSON file: "./uC_interface/sensor.json"
-                bat "echo $readSensorData['temperature']"
+                bat "echo $readSensorData.temperature"
                 readSensorData.each { key, value ->
                     echo "Walked through key $key and value $value"
                 }
