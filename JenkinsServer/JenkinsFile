@@ -1,6 +1,14 @@
 pipeline {
    agent any
 
+   def printTest {
+       if (isUnix()) {
+            sh "echo HI"
+        } else {
+            bat "echo HI"
+        }
+   }
+
    environment {
         JENKINS_HOME = 'D:/Jenkins'
     }
@@ -17,11 +25,7 @@ pipeline {
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-                if (isUnix()) {
-                    sh "echo HI"
-                } else {
-                    bat "echo HI"
-                }
+                printTest()
             }
             
 
