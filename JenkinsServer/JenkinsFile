@@ -35,8 +35,8 @@ pipeline {
 
     stage('Get Sensor Data') {
         steps {
-            // info('Get Sensor Data')
             runPython('uC_interface/get_sensor_data.py')
+            info($PH)
         }
     }
 
