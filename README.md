@@ -10,5 +10,3 @@ Git main commands:
 * git commit
 * git push
 * git pull
-
-asdasd
