@@ -19,8 +19,8 @@ print()
 print('Sensors ready!')
 print()
 
-os.environ('TEMPERATURE') = string(temperature)
-os.environ('PH') = string(ph)
-os.environ('HUMIDITY') = string(humidity)
+os.environ('TEMPERATURE') = str(temperature)
+os.environ('PH') = str(ph)
+os.environ('HUMIDITY') = str(humidity)
 
 # exit()
