@@ -1,6 +1,10 @@
 pipeline {
    agent any
 
+   environment {
+        WORKSPACE = 'D:/Jenkins'
+    }
+
    stages {
     stage('Build') {
             steps {
