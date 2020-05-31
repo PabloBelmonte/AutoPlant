@@ -78,4 +78,4 @@ def error(message) {
     echo "ERROR: ${message}"
 }
 
-def readSensorData = readJSON file: "$WORKSPACE/uC_interface/sensor.json"
+def readSensorData = readJSON file: "./uC_interface/sensor.json"
