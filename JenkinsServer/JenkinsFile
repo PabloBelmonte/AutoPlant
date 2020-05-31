@@ -8,7 +8,7 @@ pipeline {
    stages {
     stage('Build') {
             steps {
-                // // Get code from the GitHub repository
+                // // This command is done implicitely by the config on the Jenkins
                 // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                 //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
 
@@ -17,8 +17,13 @@ pipeline {
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-                bat "echo HI"
+                if (isUnix()) {
+                    sh "echo HI"
+                } else {
+                    bat "echo HI"
+                }
             }
+            
 
             //  post {
             //     // If Maven was able to run the tests, even if some of the test
@@ -29,5 +34,17 @@ pipeline {
             //     }
             //  }
         }
+    stage('Run Pump') {
+
+    }
+
+    stage('Get Sensor Data') {
+
+    }
+
+    stage('Show Sensor data') {
+
+    }
+
    }
 }
