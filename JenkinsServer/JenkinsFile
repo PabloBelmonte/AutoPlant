@@ -12,7 +12,7 @@ pipeline {
             // // This command is done implicitely by the config on the Jenkins
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-            printTest('Build')
+            info('Build')
         }
         
 
@@ -27,20 +27,20 @@ pipeline {
     }
     stage('Run Pump') {
         steps {
-            printTest('Run Pump')
+            info('Run Pump')
         }
 
     }
 
     stage('Get Sensor Data') {
         steps {
-            printTest('Get Sensor Data')
+            info('Get Sensor Data')
         }
     }
 
     stage('Show Sensor data') {
         steps {
-            printTest('Show Sensor data')
+            info('Show Sensor data')
         }
     }
 
@@ -52,11 +52,21 @@ def printTest(name) {
     if (isUnix()) {
             sh "echo $name"
         } else {
-            bat "echo $name"
+            // bat "echo $name"
+            bat "$WORKSPACE"
+
         }
     }
 }
 
 def info(message) {
     echo "INFO: ${message}"
+}
+
+def warning(message) {
+    echo "WARNING: ${message}"
+}
+
+def error(message) {
+    echo "ERROR: ${message}"
 }
