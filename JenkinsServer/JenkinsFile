@@ -53,10 +53,9 @@ def runPython(name) {
     if (isUnix()) {
             sh "echo $name"
         } else {
-            bat "echo 'Running Pyhon $name'"
-            bat "python $WORKSPACE/uC_interface/run_pump.py"
-            
-
+            // bat "echo 'Running Pyhon $name'"
+            // bat "python $WORKSPACE/uC_interface/run_pump.py"
+            bat "echo $WORKSPACE"
         }
     }
 }
