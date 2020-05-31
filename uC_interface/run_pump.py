@@ -11,7 +11,7 @@ print()
 print(f'Running pump for time equal to: {delay} seconds...')
 print()
 
-time.sleep(delay)
+time.sleep(int(delay))
 
 print()
 print('Pump ready!')
