@@ -48,13 +48,14 @@ pipeline {
    }
 }
 
-def printTest(name) {
+def runPython(name) {
     script {
     if (isUnix()) {
             sh "echo $name"
         } else {
-            // bat "echo $name"
-            bat "echo $WORKSPACE"
+            bat "echo 'Running Pyhon %name%'"
+            bat "python $WORKSPACE/uC_interface/run_pump.py"
+            
 
         }
     }
