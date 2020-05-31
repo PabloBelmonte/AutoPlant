@@ -12,7 +12,7 @@ pipeline {
             // // This command is done implicitely by the config on the Jenkins
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-            printTest()
+            printTest('0')
         }
         
 
@@ -27,20 +27,20 @@ pipeline {
     }
     stage('Run Pump') {
         steps {
-            printTest()
+            printTest('a')
         }
 
     }
 
     stage('Get Sensor Data') {
         steps {
-            printTest()
+            printTest('b')
         }
     }
 
     stage('Show Sensor data') {
         steps {
-            printTest()
+            printTest('c')
         }
     }
 
