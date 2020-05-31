@@ -13,7 +13,7 @@ pipeline {
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
             // info('Build')
-            runPython('$WORKSPACE/uC_interface/run_pump.py')
+            runPython('uC_interface/run_pump.py')
         }
         
 
@@ -54,7 +54,7 @@ def runPython(name) {
             sh "echo $name"
         } else {
             // bat "echo 'Running Pyhon $name'"
-            bat "python $name"
+            bat "python $WORKSPACE/$name"
             // bat "python $WORKSPACE/uC_interface/run_pump.py"
             // bat "echo $WORKSPACE"
         }
