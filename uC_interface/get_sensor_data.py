@@ -19,8 +19,8 @@ print()
 print('Sensors ready!')
 print()
 
-os.getenv('TEMPERATURE') = temperature
-os.getenv('PH') = ph
-os.getenv('HUMIDITY') = humidity
+os.environ('TEMPERATURE') = temperature
+os.environ('PH') = ph
+os.environ('HUMIDITY') = humidity
 
 # exit()
