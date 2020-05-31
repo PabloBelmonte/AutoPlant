@@ -13,13 +13,6 @@ pipeline {
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
             info('Build')
-            script {
-                def readSensorData = readJSON file: "./uC_interface/sensor.json"
-                bat "echo $readSensorData.temperature"
-                readSensorData.each { key, value ->
-                    echo "Walked through key $key and value $value"
-                }
-            }
         }
         
 
@@ -43,13 +36,16 @@ pipeline {
     stage('Get Sensor Data') {
         steps {
             runPython('uC_interface/get_sensor_data.py')
-            // script {
-            //     bat "echo $readSensorData.temperature.name"
-            // }
-            
-             
-            // info('$TEMPERATURE')
-            // info($PH)
+            script {
+                def readSensorData = readJSON file: "./uC_interface/sensor.json"
+                readSensorData.each { key, value ->
+                    echo "Sensor '$key' = $value"
+                }
+            }
+            // bat "echo $readSensorData.temperature"
+            info('Temperature = $readSensorData.temperature')
+            info('PH = $readSensorData.ph')
+            info('Humidity = $readSensorData.humidity')
         }
     }
 
