@@ -1,10 +1,9 @@
 pipeline {
-   agent any
-
-   
+   agent any   
 
    environment {
         JENKINS_HOME = 'D:/Jenkins'
+        DELAY_TIME = 5
     }
 
    stages {
@@ -13,12 +12,6 @@ pipeline {
             // // This command is done implicitely by the config on the Jenkins
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-
-            // Run Maven on a Unix agent.
-            // sh "mvn -Dmaven.test.failure.ignore=true clean package"
-
-            // To run Maven on a Windows agent, use
-            // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             printTest()
         }
         
@@ -54,8 +47,7 @@ pipeline {
    }
 }
 
-
-def printTest() {
+def printTest(DELAY_TIME) {
     script {
     if (isUnix()) {
             sh "echo HI"
