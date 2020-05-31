@@ -3,7 +3,7 @@ import os
 
 # Code to run the pump on the uController
 
-delay = os.getenv(DELAY_TIME)
+delay = os.getenv('DELAY_TIME')
 
 # delay = 5
 
