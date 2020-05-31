@@ -3,7 +3,7 @@ pipeline {
 
    environment {
         JENKINS_HOME = 'D:/Jenkins'
-        DELAY_TIME = 2
+        DELAY_TIME = 0.2
     }
 
    stages {
@@ -36,8 +36,10 @@ pipeline {
     stage('Get Sensor Data') {
         steps {
             runPython('uC_interface/get_sensor_data.py')
-            info('$TEMPERATURE')
-            info($PH)
+            bat "echo $readSensorData.temperature.name"
+             
+            // info('$TEMPERATURE')
+            // info($PH)
         }
     }
 
@@ -71,3 +73,5 @@ def warning(message) {
 def error(message) {
     echo "ERROR: ${message}"
 }
+
+def readSensorData = readJSON file: "${WORKSPACE}\\uC_interface\\sensor.json"
