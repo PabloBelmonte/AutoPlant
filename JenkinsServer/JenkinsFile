@@ -1,11 +1,13 @@
 pipeline {
    agent any
 
-   def printTest {
-       if (isUnix()) {
-            sh "echo HI"
-        } else {
-            bat "echo HI"
+   def printTest() {
+        script {
+        if (isUnix()) {
+                sh "echo HI"
+            } else {
+                bat "echo HI"
+            }
         }
    }
 
@@ -40,14 +42,16 @@ pipeline {
         }
     stage('Run Pump') {
 
+        bat "Run Pump"
+
     }
 
     stage('Get Sensor Data') {
-
+        bat "Run Pump"
     }
 
     stage('Show Sensor data') {
-
+        bat "Run Pump"
     }
 
    }
