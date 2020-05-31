@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="741px" preserveAspectRatio="none" style="width:1026px;height:741px;background:#777777;" version="1.1" viewBox="0 0 1026 741" width="1026px" zoomAndPan="magnify"><defs><filter height="300%" id="fhtmifhtbbzxq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d9ab88cc235d172554d9cd0b79ab0fcc]
+cluster DevMachine--><polygon fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" points="169,382,179,372,323,372,323,568,313,578,169,578,169,382" style="stroke: #1B1B1B; stroke-width: 1.5;"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="313" x2="322" y1="382" y2="373"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="169" x2="313" y1="382" y2="382"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="313" x2="313" y1="382" y2="578"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="203" y="396.0591">DevMachine</text><!--MD5=[bd65e2ae6f0fb497693a8bcc9cf9c88e]
+cluster RaspbHW--><polygon fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" points="305,102,315,92,860,92,860,302,850,312,305,312,305,102" style="stroke: #1B1B1B; stroke-width: 1.5;"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="850" x2="859" y1="102" y2="93"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="305" x2="850" y1="102" y2="102"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="850" x2="850" y1="102" y2="312"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="548.5" y="116.0591">RaspbHW</text><!--MD5=[b8aae8917f98f66a6e3d927e745ccfc1]
+cluster uControlHW--><polygon fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" points="22,130,32,120,174,120,174,274,164,284,22,284,22,130" style="stroke: #1B1B1B; stroke-width: 1.5;"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="164" x2="173" y1="130" y2="121"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="22" x2="164" y1="130" y2="130"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="164" x2="164" y1="130" y2="284"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="56" y="144.0591">uControlHW</text><!--MD5=[e7b852ab918e1d157c00316132d19420]
+cluster DeviceHW--><polygon fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" points="710,410,720,400,851,400,851,540,841,550,710,550,710,410" style="stroke: #1B1B1B; stroke-width: 1.5;"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="841" x2="850" y1="410" y2="401"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="710" x2="841" y1="410" y2="410"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="841" x2="841" y1="410" y2="550"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="744" y="424.0591">DeviceHW</text><!--MD5=[ffb1acde51167dc19cd255ffd0a5273d]
+class Workspace--><rect fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" height="152.6875" id="Workspace" style="stroke: #1B1B1B; stroke-width: 1.5;" width="89" x="187.5" y="409"/><ellipse cx="199.5" cy="422" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M200.1406,426.1563 Q199.25,426.1563 198.4922,425.8906 Q197.7344,425.625 197.1875,425.1094 Q196.6563,424.5938 196.3516,423.8125 Q196.0469,423.0313 196.0469,422.0156 Q196.0469,421.0625 196.3359,420.2891 Q196.625,419.5156 197.1719,418.9531 Q197.6875,418.4219 198.4609,418.1328 Q199.2344,417.8438 200.1406,417.8438 Q200.6406,417.8438 201.0469,417.8984 Q201.4531,417.9531 201.7969,418.0469 Q202.1563,418.1563 202.4531,418.2813 Q202.75,418.4063 202.9688,418.5156 L202.9688,420.4531 L202.7344,420.4531 Q202.5781,420.3281 202.3516,420.1484 Q202.125,419.9688 201.8281,419.7969 Q201.5313,419.625 201.1875,419.5078 Q200.8438,419.3906 200.4531,419.3906 Q200.0156,419.3906 199.625,419.5234 Q199.2344,419.6563 198.9063,419.9844 Q198.5938,420.2813 198.3984,420.7891 Q198.2031,421.2969 198.2031,422.0156 Q198.2031,422.7656 198.4141,423.2734 Q198.625,423.7813 198.9375,424.0625 Q199.2656,424.3594 199.6719,424.4844 Q200.0781,424.6094 200.4688,424.6094 Q200.8438,424.6094 201.2109,424.5 Q201.5781,424.3906 201.8906,424.1875 Q202.1563,424.0469 202.3828,423.8672 Q202.6094,423.6875 202.75,423.5625 L202.9688,423.5625 L202.9688,425.4688 Q202.6719,425.6094 202.3984,425.7266 Q202.125,425.8438 201.8125,425.9219 Q201.4219,426.0313 201.0781,426.0938 Q200.7344,426.1563 200.1406,426.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="210.5" y="426.3748">Workspace</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="188.5" x2="275.5" y1="435" y2="435"/><polygon fill="none" points="198.5,458.8359,202.5,462.8359,198.5,466.8359,194.5,462.8359" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="24" x="204.5" y="468.2549">code</text><ellipse cx="198.5" cy="477.6719" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="204.5" y="482.0908">checkin()</text><ellipse cx="198.5" cy="491.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="204.5" y="495.9268">checkout()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="188.5" x2="204" y1="449.918" y2="449.918"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="204" y="453.9189">[RaspCode]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="260" x2="275.5" y1="449.918" y2="449.918"/><polygon fill="none" points="198.5,518.1797,202.5,522.1797,198.5,526.1797,194.5,522.1797" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="24" x="204.5" y="527.5986">code</text><ellipse cx="198.5" cy="537.0156" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="204.5" y="541.4346">checkin()</text><ellipse cx="198.5" cy="550.8516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="204.5" y="555.2705">checkout()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="188.5" x2="198.5" y1="509.2617" y2="509.2617"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="198.5" y="513.2627">[JenkinsCode]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="265.5" x2="275.5" y1="509.2617" y2="509.2617"/><!--MD5=[706eb105d7b8c2cbf3dfc0ce875e3c33]
+class JenkinsServer--><rect fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" height="166.5234" id="JenkinsServer" style="stroke: #1B1B1B; stroke-width: 1.5;" width="126" x="718" y="129"/><ellipse cx="738.55" cy="142" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M739.1906,146.1563 Q738.3,146.1563 737.5422,145.8906 Q736.7844,145.625 736.2375,145.1094 Q735.7063,144.5938 735.4016,143.8125 Q735.0969,143.0313 735.0969,142.0156 Q735.0969,141.0625 735.3859,140.2891 Q735.675,139.5156 736.2219,138.9531 Q736.7375,138.4219 737.5109,138.1328 Q738.2844,137.8438 739.1906,137.8438 Q739.6906,137.8438 740.0969,137.8984 Q740.5031,137.9531 740.8469,138.0469 Q741.2063,138.1563 741.5031,138.2813 Q741.8,138.4063 742.0188,138.5156 L742.0188,140.4531 L741.7844,140.4531 Q741.6281,140.3281 741.4016,140.1484 Q741.175,139.9688 740.8781,139.7969 Q740.5813,139.625 740.2375,139.5078 Q739.8938,139.3906 739.5031,139.3906 Q739.0656,139.3906 738.675,139.5234 Q738.2844,139.6563 737.9563,139.9844 Q737.6438,140.2813 737.4484,140.7891 Q737.2531,141.2969 737.2531,142.0156 Q737.2531,142.7656 737.4641,143.2734 Q737.675,143.7813 737.9875,144.0625 Q738.3156,144.3594 738.7219,144.4844 Q739.1281,144.6094 739.5188,144.6094 Q739.8938,144.6094 740.2609,144.5 Q740.6281,144.3906 740.9406,144.1875 Q741.2063,144.0469 741.4328,143.8672 Q741.6594,143.6875 741.8,143.5625 L742.0188,143.5625 L742.0188,145.4688 Q741.7219,145.6094 741.4484,145.7266 Q741.175,145.8438 740.8625,145.9219 Q740.4719,146.0313 740.1281,146.0938 Q739.7844,146.1563 739.1906,146.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="751.45" y="146.3748">JenkinsServer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="719" x2="843" y1="155" y2="155"/><polygon fill="none" points="729,178.8359,733,182.8359,729,186.8359,725,182.8359" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="735" y="188.2549">temperature</text><polygon fill="none" points="729,192.6719,733,196.6719,729,200.6719,725,196.6719" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="12" x="735" y="202.0908">ph</text><polygon fill="none" points="729,206.5078,733,210.5078,729,214.5078,725,210.5078" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="735" y="215.9268">humidity</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="719" x2="755" y1="169.918" y2="169.918"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="755" y="173.9189">[Variables]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="807" x2="843" y1="169.918" y2="169.918"/><ellipse cx="729" cy="243.1797" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="735" y="247.5986">git_checkout()</text><ellipse cx="729" cy="257.0156" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="735" y="261.4346">run_pump()</text><ellipse cx="729" cy="270.8516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="735" y="275.2705">get_sensor_data()</text><ellipse cx="729" cy="284.6875" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="735" y="289.1064">show_sensor_data()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="719" x2="741.5" y1="229.2617" y2="229.2617"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="741.5" y="233.2627">[Pipeline Stages]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="820.5" x2="843" y1="229.2617" y2="229.2617"/><!--MD5=[099217eccd4a67746f81d8bb002b9111]
+class RaspbSW--><rect fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" height="111.1797" id="RaspbSW" style="stroke: #1B1B1B; stroke-width: 1.5;" width="130" x="321" y="157"/><ellipse cx="355.5" cy="170" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M356.1406,174.1563 Q355.25,174.1563 354.4922,173.8906 Q353.7344,173.625 353.1875,173.1094 Q352.6563,172.5938 352.3516,171.8125 Q352.0469,171.0313 352.0469,170.0156 Q352.0469,169.0625 352.3359,168.2891 Q352.625,167.5156 353.1719,166.9531 Q353.6875,166.4219 354.4609,166.1328 Q355.2344,165.8438 356.1406,165.8438 Q356.6406,165.8438 357.0469,165.8984 Q357.4531,165.9531 357.7969,166.0469 Q358.1563,166.1563 358.4531,166.2813 Q358.75,166.4063 358.9688,166.5156 L358.9688,168.4531 L358.7344,168.4531 Q358.5781,168.3281 358.3516,168.1484 Q358.125,167.9688 357.8281,167.7969 Q357.5313,167.625 357.1875,167.5078 Q356.8438,167.3906 356.4531,167.3906 Q356.0156,167.3906 355.625,167.5234 Q355.2344,167.6563 354.9063,167.9844 Q354.5938,168.2813 354.3984,168.7891 Q354.2031,169.2969 354.2031,170.0156 Q354.2031,170.7656 354.4141,171.2734 Q354.625,171.7813 354.9375,172.0625 Q355.2656,172.3594 355.6719,172.4844 Q356.0781,172.6094 356.4688,172.6094 Q356.8438,172.6094 357.2109,172.5 Q357.5781,172.3906 357.8906,172.1875 Q358.1563,172.0469 358.3828,171.8672 Q358.6094,171.6875 358.75,171.5625 L358.9688,171.5625 L358.9688,173.4688 Q358.6719,173.6094 358.3984,173.7266 Q358.125,173.8438 357.8125,173.9219 Q357.4219,174.0313 357.0781,174.0938 Q356.7344,174.1563 356.1406,174.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="371.5" y="174.3748">RaspbSW</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="322" x2="450" y1="183" y2="183"/><polygon fill="none" points="332,206.8359,336,210.8359,332,214.8359,328,210.8359" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="338" y="216.2549">all_controller_vars</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="322" x2="360" y1="197.918" y2="197.918"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="360" y="201.9189">[Variables]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="412" x2="450" y1="197.918" y2="197.918"/><ellipse cx="332" cy="243.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="338" y="247.9268">run_jenkins_server()</text><ellipse cx="332" cy="257.3438" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="338" y="261.7627">access_uControlSW()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="322" x2="366" y1="229.5898" y2="229.5898"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="366" y="233.5908">[Stages]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="406" x2="450" y1="229.5898" y2="229.5898"/><!--MD5=[27492bd64e798b405206a5f83464cb26]
+class uControlSW--><rect fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" height="111.1797" id="uControlSW" style="stroke: #1B1B1B; stroke-width: 1.5;" width="113" x="41.5" y="157"/><ellipse cx="62.05" cy="170" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M62.6906,174.1563 Q61.8,174.1563 61.0422,173.8906 Q60.2844,173.625 59.7375,173.1094 Q59.2063,172.5938 58.9016,171.8125 Q58.5969,171.0313 58.5969,170.0156 Q58.5969,169.0625 58.8859,168.2891 Q59.175,167.5156 59.7219,166.9531 Q60.2375,166.4219 61.0109,166.1328 Q61.7844,165.8438 62.6906,165.8438 Q63.1906,165.8438 63.5969,165.8984 Q64.0031,165.9531 64.3469,166.0469 Q64.7063,166.1563 65.0031,166.2813 Q65.3,166.4063 65.5188,166.5156 L65.5188,168.4531 L65.2844,168.4531 Q65.1281,168.3281 64.9016,168.1484 Q64.675,167.9688 64.3781,167.7969 Q64.0813,167.625 63.7375,167.5078 Q63.3938,167.3906 63.0031,167.3906 Q62.5656,167.3906 62.175,167.5234 Q61.7844,167.6563 61.4563,167.9844 Q61.1438,168.2813 60.9484,168.7891 Q60.7531,169.2969 60.7531,170.0156 Q60.7531,170.7656 60.9641,171.2734 Q61.175,171.7813 61.4875,172.0625 Q61.8156,172.3594 62.2219,172.4844 Q62.6281,172.6094 63.0188,172.6094 Q63.3938,172.6094 63.7609,172.5 Q64.1281,172.3906 64.4406,172.1875 Q64.7063,172.0469 64.9328,171.8672 Q65.1594,171.6875 65.3,171.5625 L65.5188,171.5625 L65.5188,173.4688 Q65.2219,173.6094 64.9484,173.7266 Q64.675,173.8438 64.3625,173.9219 Q63.9719,174.0313 63.6281,174.0938 Q63.2844,174.1563 62.6906,174.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="74.95" y="174.3748">uControlSW</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="42.5" x2="153.5" y1="183" y2="183"/><polygon fill="none" points="52.5,206.8359,56.5,210.8359,52.5,214.8359,48.5,210.8359" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="58.5" y="216.2549">all_controller_vars</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="42.5" x2="72" y1="197.918" y2="197.918"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="72" y="201.9189">[Variables]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="124" x2="153.5" y1="197.918" y2="197.918"/><ellipse cx="52.5" cy="243.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="58.5" y="247.9268">run_pump()</text><ellipse cx="52.5" cy="257.3438" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="58.5" y="261.7627">access_sensors()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="42.5" x2="74.5" y1="229.5898" y2="229.5898"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="74.5" y="233.5908">[Methods]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="121.5" x2="153.5" y1="229.5898" y2="229.5898"/><!--MD5=[2147a27ff1e47633a2942865f704f395]
+class ScreenViewer--><rect fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" height="97.3438" id="ScreenViewer" style="stroke: #1B1B1B; stroke-width: 1.5;" width="105" x="727.5" y="437"/><ellipse cx="739.5" cy="450" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M740.1406,454.1563 Q739.25,454.1563 738.4922,453.8906 Q737.7344,453.625 737.1875,453.1094 Q736.6563,452.5938 736.3516,451.8125 Q736.0469,451.0313 736.0469,450.0156 Q736.0469,449.0625 736.3359,448.2891 Q736.625,447.5156 737.1719,446.9531 Q737.6875,446.4219 738.4609,446.1328 Q739.2344,445.8438 740.1406,445.8438 Q740.6406,445.8438 741.0469,445.8984 Q741.4531,445.9531 741.7969,446.0469 Q742.1563,446.1563 742.4531,446.2813 Q742.75,446.4063 742.9688,446.5156 L742.9688,448.4531 L742.7344,448.4531 Q742.5781,448.3281 742.3516,448.1484 Q742.125,447.9688 741.8281,447.7969 Q741.5313,447.625 741.1875,447.5078 Q740.8438,447.3906 740.4531,447.3906 Q740.0156,447.3906 739.625,447.5234 Q739.2344,447.6563 738.9063,447.9844 Q738.5938,448.2813 738.3984,448.7891 Q738.2031,449.2969 738.2031,450.0156 Q738.2031,450.7656 738.4141,451.2734 Q738.625,451.7813 738.9375,452.0625 Q739.2656,452.3594 739.6719,452.4844 Q740.0781,452.6094 740.4688,452.6094 Q740.8438,452.6094 741.2109,452.5 Q741.5781,452.3906 741.8906,452.1875 Q742.1563,452.0469 742.3828,451.8672 Q742.6094,451.6875 742.75,451.5625 L742.9688,451.5625 L742.9688,453.4688 Q742.6719,453.6094 742.3984,453.7266 Q742.125,453.8438 741.8125,453.9219 Q741.4219,454.0313 741.0781,454.0938 Q740.7344,454.1563 740.1406,454.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="750.5" y="454.3748">ScreenViewer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="728.5" x2="831.5" y1="463" y2="463"/><ellipse cx="738.5" cy="491.8359" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="744.5" y="496.2549">show_jenkins()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="728.5" x2="764" y1="477.918" y2="477.918"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="764" y="481.9189">[View]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="796" x2="831.5" y1="477.918" y2="477.918"/><ellipse cx="738.5" cy="523.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="744.5" y="527.9268">cmd_jenkins()</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="728.5" x2="760" y1="509.5898" y2="509.5898"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="760" y="513.5908">[Control]</text><line style="stroke: #1B1B1B; stroke-width: 1.0;" x1="800" x2="831.5" y1="509.5898" y2="509.5898"/><path d="M126,679.5 L126,702.8687 A0,0 0 0 0 126,702.8687 L322,702.8687 A0,0 0 0 0 322,702.8687 L322,689.5 L312,679.5 L228.424,679.5 L229.021,562.276 L220.424,679.5 L126,679.5 A0,0 0 0 0 126,679.5 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M312,679.5 L312,689.5 L322,689.5 L312,679.5 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="132" y="695.5591">Machine for code development</text><path d="M939.5,201 L939.5,224.3687 L1014.5,224.3687 L1014.5,211 L1004.5,201 L939.5,201 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M1004.5,201 L1004.5,211 L1014.5,211 L1004.5,201 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="945.5" y="217.0591">Brownser</text><path d="M714.5,8 L714.5,44.7373 A0,0 0 0 0 714.5,44.7373 L777,44.7373 L781,128.9 L785,44.7373 L847.5,44.7373 A0,0 0 0 0 847.5,44.7373 L847.5,18 L837.5,8 L714.5,8 A0,0 0 0 0 714.5,8 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M837.5,8 L837.5,18 L847.5,18 L837.5,8 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="720.5" y="24.0591">Contains all the</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="720.5" y="37.4277">pipeline automation</text><path d="M287.5,8 L287.5,44.7373 A0,0 0 0 0 287.5,44.7373 L382,44.7373 L386,156.709 L390,44.7373 L484.5,44.7373 A0,0 0 0 0 484.5,44.7373 L484.5,18 L474.5,8 L287.5,8 A0,0 0 0 0 287.5,8 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M474.5,8 L474.5,18 L484.5,18 L474.5,8 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="176" x="293.5" y="24.0591">Runs the JenkinsServer server</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="157" x="293.5" y="37.4277">and access the uControlSW</text><path d="M45.5,474 L45.5,497.3687 A0,0 0 0 0 45.5,497.3687 L150.5,497.3687 A0,0 0 0 0 150.5,497.3687 L150.5,484 L140.5,474 L102,474 L98,268.015 L94,474 L45.5,474 A0,0 0 0 0 45.5,474 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M140.5,474 L140.5,484 L150.5,484 L140.5,474 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="51.5" y="490.0591">Microcontroller</text><!--MD5=[02e41594885df41d325d757716ec3f82]
+entity gitHub--><path d="M434,474.5 C434,464.5 462,464.5 462,464.5 C462,464.5 490,464.5 490,474.5 L490,496.8687 C490,506.8687 462,506.8687 462,506.8687 C462,506.8687 434,506.8687 434,496.8687 L434,474.5 " fill="#2E2E2E" filter="url(#fhtmifhtbbzxq)" style="stroke: #1B1B1B; stroke-width: 1.5;"/><path d="M434,474.5 C434,484.5 462,484.5 462,484.5 C462,484.5 490,484.5 490,474.5 " fill="none" style="stroke: #1B1B1B; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="36" x="444" y="499.5591">gitHub</text><!--MD5=[3d99d59a27ec55cd9b0b1490801f78bc]
+entity dev--><ellipse cx="478" cy="661.5" fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" rx="8" ry="8" style="stroke: #002642; stroke-width: 1.5;"/><path d="M478,669.5 L478,696.5 M465,677.5 L491,677.5 M478,696.5 L465,711.5 M478,696.5 L491,711.5 " fill="none" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="21" x="467.5" y="728.0591">dev</text><path d="M527.5,679.5 L527.5,687 L492.613,691 L527.5,695 L527.5,702.8687 A0,0 0 0 0 527.5,702.8687 L686.5,702.8687 A0,0 0 0 0 686.5,702.8687 L686.5,689.5 L676.5,679.5 L527.5,679.5 A0,0 0 0 0 527.5,679.5 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M676.5,679.5 L676.5,689.5 L686.5,689.5 L676.5,679.5 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="533.5" y="695.5591">Develops and is an user</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><ellipse cx="780" cy="661.5" fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" rx="8" ry="8" style="stroke: #002642; stroke-width: 1.5;"/><path d="M780,669.5 L780,696.5 M767,677.5 L793,677.5 M780,696.5 L767,711.5 M780,696.5 L793,711.5 " fill="none" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="25" x="767.5" y="728.0591">user</text><path d="M829.5,679.5 L829.5,687 L794.504,691 L829.5,695 L829.5,702.8687 A0,0 0 0 0 829.5,702.8687 L888.5,702.8687 A0,0 0 0 0 888.5,702.8687 L888.5,689.5 L878.5,679.5 L829.5,679.5 A0,0 0 0 0 829.5,679.5 " fill="#1A66C2" filter="url(#fhtmifhtbbzxq)" style="stroke: #002642; stroke-width: 1.0;"/><path d="M878.5,679.5 L878.5,689.5 L888.5,689.5 L878.5,679.5 " fill="#1A66C2" style="stroke: #002642; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="835.5" y="695.5591">Enjoys</text><!--MD5=[5b80a848eeb228191fcf0acb6dc3c2e3]
+link GMN14 to ScreenViewer--><path d="M977.977,224.076 C979.762,249.038 981.227,312.768 955,356 C926.261,403.373 872.825,438.711 832.53,460.215 " fill="none" id="GMN14-ScreenViewer" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[399e8d6f0aa513d93c4a84b1cb753dcc]
+link JenkinsServer to ScreenViewer--><path d="M777.772,296.046 C777.453,306.794 777.181,317.658 777,328 C776.397,362.546 777.133,401.381 778.026,431.723 " fill="none" id="JenkinsServer-&gt;ScreenViewer" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="778.183,436.901,781.9086,427.784,778.0316,431.9033,773.9122,428.0263,778.183,436.901" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="172" x="778" y="340.0591">[Brownser] --&gt; User sees and</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="790" y="353.4277">control the Jenkins server</text><!--MD5=[0939ed37ab6a556ba6fff95fcf0fb43d]
+reverse link RaspbSW to JenkinsServer--><path d="M456.5,212.5 C530.768,212.5 646.641,212.5 717.964,212.5 " fill="none" id="RaspbSW&lt;-JenkinsServer" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="451.226,212.5,460.226,216.5,456.226,212.5,460.226,208.5,451.226,212.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="230" x="469.5" y="206.5591">Jenkins server executes RaspSW scripts</text><!--MD5=[47551493f89bb72054362dee5b8f274c]
+link RaspbSW to uControlSW--><path d="M320.663,228.129 C314.968,229.086 309.272,229.903 303.75,230.5 C245.423,236.808 229.997,237.505 171.75,230.5 C167.794,230.024 163.743,229.41 159.676,228.696 " fill="none" id="RaspbSW-&gt;uControlSW" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="154.521,227.742,162.6428,233.313,159.4375,228.6519,164.0986,225.4466,154.521,227.742" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="172.75" y="227.5591">Rasp controls uControl</text><!--MD5=[79235952876ea1758f5151882498031c]
+reverse link uControlSW to Workspace--><!--MD5=[9c6aaca746d702d3d90dd58d122cb2d9]
+link gitHub to JenkinsServer--><path d="M486.675,460.719 C519.405,429.456 579.308,373.207 633,328 C658.83,306.252 688.083,283.289 713.721,263.683 " fill="none" id="gitHub-JenkinsServer" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="717.803,260.566,708.2222,262.8482,713.8289,263.6002,713.0769,269.2068,717.803,260.566" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="482.821,464.405,492.0904,461.0765,486.4349,460.9496,486.5618,455.2942,482.821,464.405" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="634" y="340.0591">Gets all codes from git,</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="640.5" y="353.4277">including the pipeline</text><!--MD5=[23e7d08f5a985c9e5565a8aee5b45ede]
+link RaspbSW to gitHub--><path d="M386.618,273.242 C388.116,299.081 391.548,329.427 399,356 C409.673,394.061 431.413,434.445 446.341,459.564 " fill="none" id="RaspbSW-gitHub" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="449.045,464.073,447.8474,454.2972,446.4738,459.7848,440.9862,458.4112,449.045,464.073" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="386.343,268.136,382.8322,277.3379,386.6116,273.1288,390.8206,276.9082,386.343,268.136" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="400" y="340.0591">Gets updated code from git</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="125" x="415.5" y="353.4277">and saves data there.</text><!--MD5=[70a8183e5a783f07f35a4c10925d687c]
+link Workspace to gitHub--><path d="M281.897,485.5 C326.387,485.5 390.264,485.5 428.78,485.5 " fill="none" id="Workspace-gitHub" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="433.81,485.5,424.81,481.5,428.81,485.5,424.81,489.5,433.81,485.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="276.619,485.5,285.619,489.5,281.619,485.5,285.619,481.5,276.619,485.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="298.75" y="479.5591">Develop code to Git</text><!--MD5=[bebd74a15192938100a98078ee94b69f]
+link Workspace to dev--><path d="M264.699,566.844 C275.793,586.855 289.833,606.886 307,622 C352.296,661.8785 423.848,679.9294 458.248,686.6527 " fill="none" id="Workspace-dev" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="463.44,687.6361,455.3411,682.0319,458.5273,686.7061,453.853,689.8923,463.44,687.6361" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="262.232,562.306,263.0171,572.1235,264.6205,566.6986,270.0453,568.302,262.232,562.306" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="335.5" y="606.0591">Devs through the</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="154" x="308" y="619.4277">Workspace on DevMachine</text><!--MD5=[71a5110c4755bcbcd05e65251d31ef80]
+link ScreenViewer to dev--><path d="M722.495,512.741 C664.32,541.23 574.066,590.939 510,652 C505.124,656.647 500.246,661.995 495.819,667.1839 " fill="none" id="ScreenViewer-dev" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="492.53,671.1066,501.3777,666.7801,495.7425,667.2752,495.2475,661.6401,492.53,671.1066" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="727.324,510.389,717.4812,510.7344,722.829,512.5787,720.9847,517.9264,727.324,510.389" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="631.5" y="606.0591">User interacts</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="184" x="579" y="619.4277">with Borwnser to access Jenkins</text><!--MD5=[b656c6b179473dda7d8f891d9b231edf]
+link ScreenViewer to user--><path d="M780,539.331 C780,572.623 780,615.085 780,646.4406 " fill="none" id="ScreenViewer-user" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="780,651.7671,784,642.7671,780,646.7671,776,642.7671,780,651.7671" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="780,534.212,776,543.212,780,539.212,784,543.212,780,534.212" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="833.5" y="606.0591">User interacts</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="184" x="781" y="619.4277">with Borwnser to access Jenkins</text><!--MD5=[4de708a0ac582239253182fe3cba9b5e]
+link gitHub to dev--><!--MD5=[089c19ec74f0858e0bfddef1595ee86e]
+@startuml AutoPlant
+!define DARKBLUE
+' !define DARKRED
+' !define DARKGREEN
+!include my_styles.puml
+allowmixing
+
+package DevMachine <<Node>> {
+  class Workspace
+}
+
+package RaspbHW <<Node>> {
+  class JenkinsServer
+  class RaspbSW
+}
+
+package uControlHW <<Node>> {
+  class uControlSW
+}
+
+
+package DeviceHW <<Node>> {
+  class ScreenViewer
+}
+class Workspace {
+    - - [RaspCode] - -
+    # code
+    +checkin()
+    +checkout()
+    - - [JenkinsCode] - -
+    # code
+    +checkin()
+    +checkout()
+}
+note bottom: Machine for code development
+
+class ScreenViewer {
+    - - [View] - -
+    + show_jenkins()
+    - - [Control] - -
+    + cmd_jenkins()
+}
+note top: Brownser
+
+class JenkinsServer {
+    - - [Variables] - -
+    # temperature
+    # ph
+    # humidity
+    - - [Pipeline Stages] - -
+    + git_checkout()
+    + run_pump()
+    + get_sensor_data()
+    + show_sensor_data()
+}
+note top: Contains all the\npipeline automation
+
+class RaspbSW {
+    - - [Variables] - -
+    # all_controller_vars
+    - - [Stages] - -
+    + run_jenkins_server()
+    + access_uControlSW()
+}
+
+note top: Runs the JenkinsServer server\nand access the uControlSW
+
+
+
+class uControlSW {
+    - - [Variables] - -
+    # all_controller_vars
+    - - [Methods] - -
+    + run_pump()
+    + access_sensors()
+}
+note bottom: Microcontroller
+
+database gitHub
+
+JenkinsServer -down-> ScreenViewer : [Brownser] - -> User sees and\ncontrol the Jenkins server
+JenkinsServer -left> RaspbSW : Jenkins server executes RaspSW scripts
+RaspbSW -right> uControlSW : Rasp controls uControl
+
+Workspace -[hidden]up-> uControlSW
+
+gitHub <- -> JenkinsServer  : Gets all codes from git,\nincluding the pipeline
+RaspbSW <- -> gitHub : Gets updated code from git\nand saves data there.
+
+Workspace <- -> gitHub : Develop code to Git
+
+actor dev
+note right : Develops and is an user
+actor user
+note right : Enjoys
+dev <-up-> Workspace: Devs through the\nWorkspace on DevMachine
+dev <-up-> ScreenViewer: User interacts\nwith Borwnser to access Jenkins
+user <-up-> ScreenViewer: User interacts\nwith Borwnser to access Jenkins
+dev <-[hidden]up-> gitHub: User 
+' user <-[hidden]up-> ScreenViewer: User 
+
+
+
+@enduml
+
+@startuml AutoPlant
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName "Verdana"
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor fff
+  lifeLineBackgroundColor bbb
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName "Verdana"
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName "Verdana"
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+allowmixing
+
+package DevMachine <<Node>> {
+  class Workspace
+}
+
+package RaspbHW <<Node>> {
+  class JenkinsServer
+  class RaspbSW
+}
+
+package uControlHW <<Node>> {
+  class uControlSW
+}
+
+
+package DeviceHW <<Node>> {
+  class ScreenViewer
+}
+class Workspace {
+    - - [RaspCode] - -
+    # code
+    +checkin()
+    +checkout()
+    - - [JenkinsCode] - -
+    # code
+    +checkin()
+    +checkout()
+}
+note bottom: Machine for code development
+
+class ScreenViewer {
+    - - [View] - -
+    + show_jenkins()
+    - - [Control] - -
+    + cmd_jenkins()
+}
+note top: Brownser
+
+class JenkinsServer {
+    - - [Variables] - -
+    # temperature
+    # ph
+    # humidity
+    - - [Pipeline Stages] - -
+    + git_checkout()
+    + run_pump()
+    + get_sensor_data()
+    + show_sensor_data()
+}
+note top: Contains all the\npipeline automation
+
+class RaspbSW {
+    - - [Variables] - -
+    # all_controller_vars
+    - - [Stages] - -
+    + run_jenkins_server()
+    + access_uControlSW()
+}
+
+note top: Runs the JenkinsServer server\nand access the uControlSW
+
+
+
+class uControlSW {
+    - - [Variables] - -
+    # all_controller_vars
+    - - [Methods] - -
+    + run_pump()
+    + access_sensors()
+}
+note bottom: Microcontroller
+
+database gitHub
+
+JenkinsServer -down-> ScreenViewer : [Brownser] - -> User sees and\ncontrol the Jenkins server
+JenkinsServer -left> RaspbSW : Jenkins server executes RaspSW scripts
+RaspbSW -right> uControlSW : Rasp controls uControl
+
+Workspace -[hidden]up-> uControlSW
+
+gitHub <- -> JenkinsServer  : Gets all codes from git,\nincluding the pipeline
+RaspbSW <- -> gitHub : Gets updated code from git\nand saves data there.
+
+Workspace <- -> gitHub : Develop code to Git
+
+actor dev
+note right : Develops and is an user
+actor user
+note right : Enjoys
+dev <-up-> Workspace: Devs through the\nWorkspace on DevMachine
+dev <-up-> ScreenViewer: User interacts\nwith Borwnser to access Jenkins
+user <-up-> ScreenViewer: User interacts\nwith Borwnser to access Jenkins
+dev <-[hidden]up-> gitHub: User 
+
+
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 06:35:57 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_241-b07
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>
