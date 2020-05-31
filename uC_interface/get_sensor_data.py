@@ -16,6 +16,15 @@ ph = 7
 humidity = 80
 
 # dump to json
+dictionary ={ 
+    "temperature" : temperature, 
+    "ph" : ph, 
+    "humidity" : humidity
+}
+json_object = json.dumps(dictionary, indent = 4)
+
+with open("sensor.json", "w") as outfile:
+    outfile.write(json_object)
 
 
 print()
