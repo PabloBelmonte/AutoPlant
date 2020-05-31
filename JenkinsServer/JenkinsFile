@@ -47,12 +47,12 @@ pipeline {
    }
 }
 
-def printTest(DELAY_TIME) {
+def printTest(String name = 'Hello World') {
     script {
     if (isUnix()) {
-            sh "echo HI"
+            sh "echo $name"
         } else {
-            bat "echo HI"
+            bat "echo %name%"
         }
     }
 }
