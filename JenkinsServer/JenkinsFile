@@ -13,7 +13,9 @@ pipeline {
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
             info('Build')
-            bat "echo readSensorData.temperature.name"
+            script {
+                bat "echo readSensorData.temperature.name"
+            }
         }
         
 
