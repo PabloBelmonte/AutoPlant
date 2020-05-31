@@ -1,15 +1,7 @@
 pipeline {
    agent any
 
-   def printTest() {
-        script {
-        if (isUnix()) {
-                sh "echo HI"
-            } else {
-                bat "echo HI"
-            }
-        }
-   }
+   
 
    environment {
         JENKINS_HOME = 'D:/Jenkins'
@@ -55,4 +47,15 @@ pipeline {
     }
 
    }
+}
+
+
+def printTest() {
+    script {
+    if (isUnix()) {
+            sh "echo HI"
+        } else {
+            bat "echo HI"
+        }
+    }
 }
