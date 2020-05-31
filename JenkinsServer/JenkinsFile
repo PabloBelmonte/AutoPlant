@@ -35,15 +35,16 @@ pipeline {
 
     stage('Get Sensor Data') {
         steps {
-            info('Get Sensor Data')
+            // info('Get Sensor Data')
+            runPython('uC_interface/get_sensor_data.py')
         }
     }
 
-    stage('Show Sensor data') {
-        steps {
-            info('Show Sensor data')
-        }
-    }
+    // stage('Show Sensor data') {
+    //     steps {
+    //         info('Show Sensor data')
+    //     }
+    // }
 
    }
 }
