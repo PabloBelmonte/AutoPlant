@@ -9,41 +9,46 @@ pipeline {
 
    stages {
     stage('Build') {
-            steps {
-                // // This command is done implicitely by the config on the Jenkins
-                // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
-                //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
+        steps {
+            // // This command is done implicitely by the config on the Jenkins
+            // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
+            //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
 
-                // Run Maven on a Unix agent.
-                // sh "mvn -Dmaven.test.failure.ignore=true clean package"
+            // Run Maven on a Unix agent.
+            // sh "mvn -Dmaven.test.failure.ignore=true clean package"
 
-                // To run Maven on a Windows agent, use
-                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-                printTest()
-            }
-            
-
-            //  post {
-            //     // If Maven was able to run the tests, even if some of the test
-            //     // failed, record the test results and archive the jar file.
-            //     success {
-            //        junit '**/target/surefire-reports/TEST-*.xml'
-            //        archiveArtifacts 'target/*.jar'
-            //     }
-            //  }
+            // To run Maven on a Windows agent, use
+            // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            printTest()
         }
-    stage('Run Pump') {
+        
 
-        bat "Run Pump"
+        //  post {
+        //     // If Maven was able to run the tests, even if some of the test
+        //     // failed, record the test results and archive the jar file.
+        //     success {
+        //        junit '**/target/surefire-reports/TEST-*.xml'
+        //        archiveArtifacts 'target/*.jar'
+        //     }
+        //  }
+    }
+    stage('Run Pump') {
+        steps {
+            bat "Run Pump"
+        }
 
     }
 
     stage('Get Sensor Data') {
-        bat "Run Pump"
+        steps {
+            bat "Run Pump"
+        }
     }
 
     stage('Show Sensor data') {
-        bat "Run Pump"
+        steps {
+            bat "Run Pump"
+        }
     }
 
    }
