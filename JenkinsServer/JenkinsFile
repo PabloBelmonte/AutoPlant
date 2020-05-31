@@ -12,7 +12,8 @@ pipeline {
             // // This command is done implicitely by the config on the Jenkins
             // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-            info('Build')
+            // info('Build')
+            printTest('Build')
         }
         
 
