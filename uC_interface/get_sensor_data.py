@@ -1,5 +1,5 @@
 import time
-import os
+import json
 
 # Code to get sensor data on the uController
 
@@ -15,8 +15,11 @@ ph = 7
 # humidity
 humidity = 80
 
+# dump to json
+
+
 print()
-print('Sensors ready!')
+print('Sensors data ready!')
 print()
 
 # os.environ('TEMPERATURE') = str(temperature)

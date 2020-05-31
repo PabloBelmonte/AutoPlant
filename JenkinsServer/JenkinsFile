@@ -15,7 +15,7 @@ pipeline {
             info('Build')
             script {
                 def readSensorData = readJSON file: "./uC_interface/sensor.json"
-                // bat "echo readSensorData.temperature.name"
+                bat "echo $readSensorData.glossary.name"
                 readSensorData.each { key, value ->
                     echo "Walked through key $key and value $value"
                 }
@@ -83,5 +83,3 @@ def warning(message) {
 def error(message) {
     echo "ERROR: ${message}"
 }
-
-def readSensorData = readJSON file: "./uC_interface/sensor.json"
