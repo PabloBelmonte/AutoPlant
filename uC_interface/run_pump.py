@@ -3,7 +3,7 @@ import os
 
 # Code to run the pump on the uController
 
-delay = os.getenv('DELAY_TIME')
+delay = int(os.getenv('DELAY_TIME'))
 
 # delay = 5
 
@@ -11,7 +11,7 @@ print()
 print(f'Running pump for time equal to: {delay} seconds...')
 print()
 
-time.sleep(int(delay))
+time.sleep(delay)
 
 print()
 print('Pump ready!')

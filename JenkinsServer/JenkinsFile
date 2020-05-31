@@ -3,7 +3,7 @@ pipeline {
 
    environment {
         JENKINS_HOME = 'D:/Jenkins'
-        DELAY_TIME = 5
+        DELAY_TIME = 2
     }
 
    stages {
