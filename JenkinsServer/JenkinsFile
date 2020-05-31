@@ -8,10 +8,9 @@ pipeline {
    stages {
     stage('Build') {
             steps {
-                // Get some code from a GitHub repository
-                // git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']],
-                    userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
+                // // Get code from the GitHub repository
+                // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
+                //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
 
                 // Run Maven on a Unix agent.
                 // sh "mvn -Dmaven.test.failure.ignore=true clean package"
