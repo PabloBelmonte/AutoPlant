@@ -23,7 +23,7 @@ dictionary ={
 }
 json_object = json.dumps(dictionary, indent = 4)
 
-with open("sensor.json", "w") as outfile:
+with open("uC_interface/sensor.json", "w") as outfile:
     outfile.write(json_object)
 
 
