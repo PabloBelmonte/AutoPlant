@@ -14,7 +14,7 @@ pipeline {
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
             info('Build')
             script {
-                bat "echo readSensorData.temperature.name"
+                bat "echo $readSensorData.temperature.name"
             }
         }
         
