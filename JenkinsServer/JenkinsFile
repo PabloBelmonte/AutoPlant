@@ -2,7 +2,7 @@ pipeline {
    agent any
 
    environment {
-        WORKSPACE = 'D:/Jenkins'
+        WORKSPACE = 'D:\\Jenkins'
     }
 
    stages {
