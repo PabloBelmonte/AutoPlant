@@ -57,7 +57,6 @@ pipeline {
         always {
             echo 'One way or another, I have finished'
             // deleteDir() /* clean up our workspace */
-            // plot csvFileName: 'plot-1eb9ae41-6de2-4d2d-9da8-d894b7ddc73f.csv', description: 'Shows temperature', group: 'Sensors', propertiesSeries: [[file: 'uC_interface/test2.csv', label: '']], style: 'line', title: 'Temperature', yaxis: 'Temperature'
             plot csvFileName: 'plot-8e54e334-ab7b-4c9f-94f7-b9d8965723df.csv',
                 csvSeries: [[
                                     file: 'uC_interface/sensorRecordData.csv',
@@ -66,7 +65,7 @@ pipeline {
                                     inclusionFlag: 'OFF',
                                     url: '']],
                 group: 'Sensor',
-                title: 'All Sensors',
+                title: 'Sensor 1',
                 style: 'line',
                 exclZero: false,
                 keepRecords: false,
@@ -79,6 +78,7 @@ pipeline {
         }
         success {
             echo 'Success!'
+            updateGit()
             // mail to: 'pnabelmonte@gmail.com',
             //     subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
             //     body: "Everything right with ${env.BUILD_URL}"
@@ -92,6 +92,17 @@ pipeline {
         changed {
             echo 'Things were different before...'
         }
+    }
+}
+
+def updateGit(name) {
+    script {
+        git add 'uC_interface/sensorRecordData.csv'
+    // if (isUnix()) {
+    //         sh "python $WORKSPACE/$name"
+    //     } else {
+    //         bat "python $WORKSPACE/$name"
+    //     }
     }
 }
 
