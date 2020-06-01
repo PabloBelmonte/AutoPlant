@@ -47,11 +47,15 @@ pipeline {
             }
         }
 
-        // stage('Show Sensor data') {
-        //     steps {
-        //         info('Show Sensor data')
-        //     }
-        // }
+        stage('Show Sensor data') {
+            steps {
+                info('Show Sensor data')
+                plot csvFileName: 'plot-1eb9ae41-6de2-4d2d-9da8-d894b7ddc73f.csv', 
+                description: 'Shows temperature', group: 'Sensors', 
+                propertiesSeries: [[file: 'uC_interface/test.csv', label: '']], 
+                style: 'line', title: 'Temperature', yaxis: 'Temperature'
+            }
+        }
     }
     post {
     // If Maven was able to run the tests, even if some of the test
