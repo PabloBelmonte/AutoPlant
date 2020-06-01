@@ -7,14 +7,12 @@ delay = float(os.getenv('DELAY_TIME'))
 
 # delay = 5
 
-print()
-print(f'Running pump for time equal to: {delay} seconds...')
-print()
+print('--------------------------')
+print(f'Running pump for time equal to: {delay} seconds...\n')
 
 time.sleep(delay)
 
-print()
 print('Pump ready!')
-print()
+print('--------------------------')
 
 # exit()
