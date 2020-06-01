@@ -101,7 +101,7 @@ def updateGit(name) {
             sh "git add $WORKSPACE/$name"
         } else {
             bat "git add $WORKSPACE/$name"
-            bat "git commit -m 'Adding $name for ${JOB_NUMBER}.'"
+            bat "git commit -m 'Adding $name for ${JOB_NAME}.'"
             bat "git push"
         }
     }
