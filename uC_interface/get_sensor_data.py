@@ -49,7 +49,7 @@ json_object = json.dumps(dictionary, indent = 4)
 with open("uC_interface/sensor.json", "w") as outfile:
     outfile.write(json_object)
 
-print('Sensors data ready!\n')
+print('Writting to CSV.\n')
 
 if os.path.isfile('uC_interface/sensorRecordData.csv'):
     # Apend data to csv file
