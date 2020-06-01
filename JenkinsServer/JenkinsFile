@@ -48,14 +48,8 @@ pipeline {
         }
     }
     post {
-    // If Maven was able to run the tests, even if some of the test
-    // failed, record the test results and archive the jar file.
-        // success {
-        //     junit '**/target/surefire-reports/TEST-*.xml'
-        //     archiveArtifacts 'target/*.jar'
-        // }
         always {
-            echo 'One way or another, I have finished'
+            echo 'Finished! Now do the plot.'
             // deleteDir() /* clean up our workspace */
             plot csvFileName: 'plot-8e54e334-ab7b-4c9f-94f7-b9d8965723df.csv',
                 csvSeries: [[
@@ -71,7 +65,7 @@ pipeline {
                 keepRecords: false,
                 logarithmic: false,
                 numBuilds: '',
-                useDescr: false,
+                useDescr: true,
                 yaxis: '',
                 yaxisMaximum: '',
                 yaxisMinimum: ''
