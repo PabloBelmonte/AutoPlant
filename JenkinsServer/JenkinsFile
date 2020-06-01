@@ -99,12 +99,13 @@ def updateGit(name) {
     script {
     if (isUnix()) {
             sh "git add $WORKSPACE/$name"
-            sh 'git commit -m "Adding $name for ${BUILD_TAG}."'
+            sh 'git commit -m "Edit by Jenkins"'
             sh "git push"
         } else {
             bat "git add $WORKSPACE/$name"
-            bat 'git commit -m "Adding $name for ${BUILD_TAG}."'
+            bat 'git commit -m "Edit by Jenkins"'
             bat "git push"
+            bat "git push HEAD:master"
         }
     }
 }
