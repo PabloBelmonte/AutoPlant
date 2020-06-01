@@ -100,7 +100,7 @@ def updateGit(name) {
     if (isUnix()) {
             sh "git add $WORKSPACE/$name"
             sh 'git commit -m "Edit by Jenkins"'
-            sh "git push"
+            sh "git push origin HEAD:master"
         } else {
             bat "git add $WORKSPACE/$name"
             bat 'git commit -m "Edit by Jenkins"'

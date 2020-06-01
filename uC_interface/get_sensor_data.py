@@ -6,21 +6,21 @@ import numpy as np
 
 def get_temperature():
     # mu, sigma = 25, 0.1 # mean and standard deviation
-    mu, sigma = 25, 10 # mean and standard deviation
+    mu, sigma = 25, 1 # mean and standard deviation
     temp = np.random.normal(mu, sigma, 1)
     temp = temp[0]
     return temp
 
 def get_ph():
     # mu, sigma = 7, 0.1 # mean and standard deviation
-    mu, sigma = 7, 10 # mean and standard deviation
+    mu, sigma = 7, 1 # mean and standard deviation
     ph = np.random.normal(mu, sigma, 1)
     ph = ph[0]
     return ph
 
 def get_humidity():
     # mu, sigma = 80, 0.1 # mean and standard deviation
-    mu, sigma = 80, 10 # mean and standard deviation
+    mu, sigma = 80, 1 # mean and standard deviation
     humidity = np.random.normal(mu, sigma, 1)
     humidity = humidity[0]
     return humidity
