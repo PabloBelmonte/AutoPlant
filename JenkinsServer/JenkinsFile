@@ -7,53 +7,60 @@ pipeline {
     }
 
    stages {
-    stage('Build') {
-        steps {
-            // // This command is done implicitely by the config on the Jenkins
-            // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
-            //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
-            info('Build')
-        }
-        //  post {
-        //     // If Maven was able to run the tests, even if some of the test
-        //     // failed, record the test results and archive the jar file.
-        //     success {
-        //        junit '**/target/surefire-reports/TEST-*.xml'
-        //        archiveArtifacts 'target/*.jar'
-        //     }
-        //  }
-    }
-    stage('Run Pump') {
-        steps {
-            // info('Run Pump')
-            runPython('uC_interface/run_pump.py')
-        }
-
-    }
-
-    stage('Get Sensor Data') {
-        steps {
-            runPython('uC_interface/get_sensor_data.py')
-            script {
-                def readSensorData = readJSON file: "./uC_interface/sensor.json"
-                readSensorData.each { key, value ->
-                    echo "Sensor '$key' = $value"
-                }
+        stage('Build') {
+            steps {
+                // // This command is done implicitely by the config on the Jenkins
+                // checkout([$class: 'GitSCM', branches: [[name: '*/master']],
+                //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
+                info('Build')
             }
-            // bat "echo $readSensorData.temperature"
-            // info('Temperature = $readSensorData.temperature')
-            // info('PH = $readSensorData.ph')
-            // info('Humidity = $readSensorData.humidity')
+            //  post {
+            //     // If Maven was able to run the tests, even if some of the test
+            //     // failed, record the test results and archive the jar file.
+            //     success {
+            //        junit '**/target/surefire-reports/TEST-*.xml'
+            //        archiveArtifacts 'target/*.jar'
+            //     }
+            //  }
         }
+        stage('Run Pump') {
+            steps {
+                // info('Run Pump')
+                runPython('uC_interface/run_pump.py')
+            }
+
+        }
+
+        stage('Get Sensor Data') {
+            steps {
+                runPython('uC_interface/get_sensor_data.py')
+                script {
+                    def readSensorData = readJSON file: "./uC_interface/sensor.json"
+                    readSensorData.each { key, value ->
+                        echo "Sensor '$key' = $value"
+                    }
+                }
+                // bat "echo $readSensorData.temperature"
+                // info('Temperature = $readSensorData.temperature')
+                // info('PH = $readSensorData.ph')
+                // info('Humidity = $readSensorData.humidity')
+            }
+        }
+
+        // stage('Show Sensor data') {
+        //     steps {
+        //         info('Show Sensor data')
+        //     }
+        // }
     }
-
-    // stage('Show Sensor data') {
-    //     steps {
-    //         info('Show Sensor data')
-    //     }
-    // }
-
-   }
+    post {
+    // If Maven was able to run the tests, even if some of the test
+    // failed, record the test results and archive the jar file.
+    success {
+        junit '**/target/surefire-reports/TEST-*.xml'
+        archiveArtifacts 'target/*.jar'
+    }
+    }
 }
 
 def runPython(name) {
