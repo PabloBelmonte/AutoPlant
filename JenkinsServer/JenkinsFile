@@ -104,7 +104,6 @@ def updateGit(name) {
         } else {
             bat "git add $WORKSPACE/$name"
             bat 'git commit -m "Edit by Jenkins"'
-            bat "git push"
             bat "git push origin HEAD:master"
         }
     }
