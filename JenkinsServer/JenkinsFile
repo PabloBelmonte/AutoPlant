@@ -98,9 +98,11 @@ pipeline {
 def updateGit(name) {
     script {
     if (isUnix()) {
-            sh "python $WORKSPACE/$name"
+            sh "git add $WORKSPACE/$name"
         } else {
             bat "git add $WORKSPACE/$name"
+            bat "git commit -m 'Adding $name for ${JOB_NUMBER}.'"
+            bat "git push"
         }
     }
 }
