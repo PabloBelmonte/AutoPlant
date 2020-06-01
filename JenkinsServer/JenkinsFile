@@ -66,11 +66,9 @@ pipeline {
         }
         success {
             echo 'Success!'
-            mail to: 'pnabelmonte@gmail.com',
-                subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
-                body: "Everything right with ${env.BUILD_URL}"
-                // subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
-                // body: "Something is wrong with ${env.BUILD_URL}"
+            // mail to: 'pnabelmonte@gmail.com',
+            //     subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
+            //     body: "Everything right with ${env.BUILD_URL}"
         }
         unstable {
             echo 'I am unstable :/'
