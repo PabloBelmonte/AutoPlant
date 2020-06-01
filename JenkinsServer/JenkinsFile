@@ -14,8 +14,6 @@ pipeline {
             //     userRemoteConfigs: [[url: 'https://github.com/PabloBelmonte/AutoPlant.git']]])
             info('Build')
         }
-        
-
         //  post {
         //     // If Maven was able to run the tests, even if some of the test
         //     // failed, record the test results and archive the jar file.
@@ -43,9 +41,9 @@ pipeline {
                 }
             }
             // bat "echo $readSensorData.temperature"
-            info('Temperature = $readSensorData.temperature')
-            info('PH = $readSensorData.ph')
-            info('Humidity = $readSensorData.humidity')
+            // info('Temperature = $readSensorData.temperature')
+            // info('PH = $readSensorData.ph')
+            // info('Humidity = $readSensorData.humidity')
         }
     }
 
