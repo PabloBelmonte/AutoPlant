@@ -78,7 +78,7 @@ pipeline {
         }
         success {
             echo 'Success!'
-            updateGit()
+            updateGit('uC_interface/sensorRecordData.csv')
             // mail to: 'pnabelmonte@gmail.com',
             //     subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
             //     body: "Everything right with ${env.BUILD_URL}"
@@ -97,12 +97,11 @@ pipeline {
 
 def updateGit(name) {
     script {
-        git add 'uC_interface/sensorRecordData.csv'
-    // if (isUnix()) {
-    //         sh "python $WORKSPACE/$name"
-    //     } else {
-    //         bat "python $WORKSPACE/$name"
-    //     }
+    if (isUnix()) {
+            sh "python $WORKSPACE/$name"
+        } else {
+            bat "git add $WORKSPACE/$name"
+        }
     }
 }
 
