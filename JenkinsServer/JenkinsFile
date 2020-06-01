@@ -56,9 +56,25 @@ pipeline {
     post {
     // If Maven was able to run the tests, even if some of the test
     // failed, record the test results and archive the jar file.
+        // success {
+        //     junit '**/target/surefire-reports/TEST-*.xml'
+        //     archiveArtifacts 'target/*.jar'
+        // }
+        always {
+            echo 'One way or another, I have finished'
+            deleteDir() /* clean up our workspace */
+        }
         success {
-            junit '**/target/surefire-reports/TEST-*.xml'
-            archiveArtifacts 'target/*.jar'
+            echo 'I succeeeded!'
+        }
+        unstable {
+            echo 'I am unstable :/'
+        }
+        failure {
+            echo 'I failed :('
+        }
+        changed {
+            echo 'Things were different before...'
         }
     }
 }
